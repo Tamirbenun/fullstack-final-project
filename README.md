@@ -15,6 +15,8 @@ This repository contains three separate projects that work together to form a co
 
 > Libraries & nuget packege: `jwt` + `Net.Mail` + `jwt` + `Identity.EntityFrameworkCore`+`EntityFrameworkCore`+`EntityFrameworkCore.Design`+`EntityFrameworkCore.SqlServer` +`EntityFrameworkCore.Tools` 
 
+*Detailed information on each project
+
 ### 1. Frontend Project (React.js)
 
 - **Description:**
