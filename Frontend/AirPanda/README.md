@@ -12,7 +12,7 @@ AirPanda is a modern and user-friendly flight booking website that offers a seam
 
 ### Installation
 
-1. 1. [Download the project](https://drive.google.com/drive/folders/1IDhAAc-w23THK68_y1oipaqZgMfUTq6n?usp=sharing)
+1. [Download the project](https://drive.google.com/drive/folders/1IDhAAc-w23THK68_y1oipaqZgMfUTq6n?usp=sharing)
       \*The link contains all the projects
 2. Run in console:
    ```bash
