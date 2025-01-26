@@ -55,8 +55,9 @@ The server-side architecture includes several controllers and services that work
 
 1. [Download the project](https://drive.google.com/drive/folders/1IDhAAc-w23THK68_y1oipaqZgMfUTq6n?usp=sharing) *The link contains all the projects
 2. Open the project in **Visual Studio Code**
-3. Open the **Package Manager Console**
-4. Run the following command to update the database schema:
+3. Open appsettings.json > in row 10 Change "ZENBOOK-PRO\\SQL2024" to your Server Name
+4. Open the **Package Manager Console**
+5. Run the following command to update the database schema:
 ```bash 
 update-database
 
