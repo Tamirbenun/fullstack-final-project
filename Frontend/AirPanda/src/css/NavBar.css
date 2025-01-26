@@ -1,0 +1,15 @@
+.logo {
+  width: 8.5rem;
+}
+
+.btn-register {
+  background: none;
+  color: #003268;
+  transition: all 0.4s ease 0s;
+}
+
+.btn-menu {
+  background: none;
+  color: #003268;
+  transition: all 0.4s ease 0s;
+}
