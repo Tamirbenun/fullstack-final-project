@@ -59,5 +59,5 @@ AirPanda is a modern and user-friendly flight booking website that offers a seam
 
 | Role   | Email            | Password |
 | ------ | ---------------- | -------- |
-| Admin  | tamir@gmail.coml | 123456   |
+| Admin  | tamir@gmail.com | 123456   |
 | Member | rotem@gmail.com  | 123456   |
