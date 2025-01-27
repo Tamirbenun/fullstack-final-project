@@ -30,9 +30,9 @@ This repository contains three separate projects that work together to form a co
   - Secure payment processing.
 
 - **Technologies Used:**
-  - React.js
+  - React.js typescript 
   - Axios (for API calls)
-  - CSS/SCSS (for styling)
+  - CSS and Tailwindcss (for styling)
 
 ---
 
