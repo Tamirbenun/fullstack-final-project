@@ -111,4 +111,4 @@ Each block has a refresh button in the top right corner to update the informatio
 
 | Role  | Email            | Password |
 | ----- | ---------------- | -------- |
-| Admin | tamir@gmail.coml | 123456   |
+| Admin | tamir@gmail.com | 123456   |
