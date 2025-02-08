@@ -1,6 +1,6 @@
 import Isracard from "../../assets/images/paymentsLogos/Isracard.svg";
 import American from "../../assets/images/paymentsLogos/american.svg";
-import PayPal from "../../assets/images/paymentsLogos/PayPal.svg";
+import PayPal from "../../assets/images/paymentsLogos/paypal.svg";
 import Visa from "../../assets/images/paymentsLogos/visa.svg";
 import MasterCard from "../../assets/images/paymentsLogos/mastercard.svg";
 
