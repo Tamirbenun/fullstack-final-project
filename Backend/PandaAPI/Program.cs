@@ -72,6 +72,7 @@ public class Program
                         "http://localhost:3000",
                         "http://localhost:5173",
                         "http://localhost:5174",
+                        "http://localhost:5175",
                     ])
                 .AllowAnyHeader()
                 .AllowAnyMethod()
@@ -85,9 +86,9 @@ public class Program
 
         var app = builder.Build();
 
-        var port = Environment.GetEnvironmentVariable("PORT") ?? "5000";
-        app.Urls.Add($"http://*:{port}");
-        app.MapGet("/", () => "Hello, Render!");
+        //var port = Environment.GetEnvironmentVariable("PORT") ?? "5000";
+        //app.Urls.Add($"http://*:{port}");
+        //app.MapGet("/", () => "Hello, Render!");
 
         app.UseCors(corsPolicy);
 
