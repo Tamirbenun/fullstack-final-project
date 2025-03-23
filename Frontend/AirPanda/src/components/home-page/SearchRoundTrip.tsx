@@ -189,7 +189,7 @@ const SearchRoundTrip = () => {
       className={`flex flex-col lg:flex-row items-center py-5 w-full gap-0 rounded-3xl ${
         location.pathname === "/Booking"
           ? "rounded-t-none rounded-b-2xl border-t px-7"
-          : "rounded-tr-none md:rounded-e-3xl border px-10"
+          : "md:rounded-e-3xl border px-10"
       } mx-auto bg-white`}
     >
       <div className="flex flex-col w-full pt-5 lg:pt-0">
@@ -273,7 +273,7 @@ const SearchRoundTrip = () => {
 
       <div className="bg-gray-300 w-[4px] h-[40px] mx-8 hidden lg:block"></div>
 
-      <div className="flex flex-col lg:w-auto pt-5 lg:pt-0 lg:me-4">
+      <div className="flex flex-col w-full lg:w-auto pt-5 lg:pt-0 lg:me-4">
         <div className="">
           <label
             className={`font-medium ${

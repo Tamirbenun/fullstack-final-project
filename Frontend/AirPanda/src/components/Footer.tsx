@@ -34,13 +34,15 @@ const Footer = () => {
 
       <div className="text-center">
         <p className="">
-          © 2024 AirPanda. Designed and Developed by{" "}
+          © 2024 AirPanda.
+          <br className="sm:hidden" /> Designed and Developed by{" "}
           <Link
             target="_blank"
             rel="noopener noreferrer"
             to="https://www.linkedin.com/in/tamir-benun-222a4127a"
             className="text-hover-darkblue"
           >
+            <br className="sm:hidden" />
             [Tamir Benun]
           </Link>
         </p>

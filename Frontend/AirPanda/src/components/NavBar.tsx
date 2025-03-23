@@ -51,7 +51,11 @@ const NavBar = () => {
             <div className="flex items-center ms-14 lg:ms-0 mg:items-stretch lg:justify-start">
               <div className="flex flex-shrink-0 items-center">
                 <NavLink to="/">
-                  <img alt="airpanda logo" src={logo} className="h-7 w-auto" />
+                  <img
+                    alt="airpanda logo"
+                    src={logo}
+                    className="h-5 -ms-2 sm:h-7 w-auto"
+                  />
                 </NavLink>
               </div>
             </div>

@@ -28,7 +28,7 @@ const Login = () => {
   };
 
   return (
-    <main className="min-h-[90vh] px-10">
+    <main className="min-h-[90vh] px-5 lg:px-10">
       <div className="flex justify-between md:bg-gray-100 rounded-3xl p-3">
         <div className="hidden md:block flex-1">
           <div className="flex justify-center items-center h-full">
@@ -47,7 +47,7 @@ const Login = () => {
             </div>
           </div>
         </div>
-        <div className="relative bg-white rounded-2xl min-h-[83vh] w-full md:w-1/2 px-10 lg:px-20 pt-10">
+        <div className="relative bg-white rounded-2xl min-h-[83vh] w-full md:w-1/2 px-0 lg:px-20 pt-10">
           <div className="text-center">
             <h1 className="text-5xl font-medium mb-5">Login</h1>
           </div>
