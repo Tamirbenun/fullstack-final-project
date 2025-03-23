@@ -91,7 +91,7 @@ const SectionDestinations = () => {
           <h2 className="text-5xl font-medium">Our destinations</h2>
         </div>
 
-        <div className="hidden lg:flex justify-between gap-4 xl:gap-12 w-full">
+        <div className="hidden lg:flex justify-center gap-4 xl:gap-12 w-full">
           {!isLoading ? (
             destinatonsGroup?.map((d) => (
               <div

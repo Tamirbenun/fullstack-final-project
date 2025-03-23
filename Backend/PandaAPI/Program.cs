@@ -85,6 +85,10 @@ public class Program
 
         var app = builder.Build();
 
+        var port = Environment.GetEnvironmentVariable("PORT") ?? "5000";
+        app.Urls.Add($"http://*:{port}");
+        app.MapGet("/", () => "Hello, Render!");
+
         app.UseCors(corsPolicy);
 
         if (app.Environment.IsDevelopment())
