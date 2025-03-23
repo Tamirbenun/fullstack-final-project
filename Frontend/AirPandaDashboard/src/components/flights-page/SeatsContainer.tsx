@@ -23,7 +23,7 @@ interface Flight {
   isActive: string;
 }
 
-const SeatsContainer = ({ flight }: { flight: Flight }) => {
+const SeatsContainer = ({ flight }) => {
   const seatsRow = (
     flightClass: number,
     colNumber: number,

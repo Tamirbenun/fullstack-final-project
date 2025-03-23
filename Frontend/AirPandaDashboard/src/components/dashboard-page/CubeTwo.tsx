@@ -6,6 +6,7 @@ import ReactApexChart from "react-apexcharts";
 import { ThemeContext } from "../../contexts/ThemeContext";
 import { TbFaceIdError } from "react-icons/tb";
 import { Link } from "react-router-dom";
+import { ApexOptions } from "apexcharts";
 
 const CubeTwo = () => {
   const { theme } = useContext(ThemeContext);
@@ -21,7 +22,7 @@ const CubeTwo = () => {
     options: {
       chart: {
         height: 100,
-        type: "bar",
+        type: "bar" as ApexOptions["chart"]["type"],
         toolbar: {
           show: false,
         },

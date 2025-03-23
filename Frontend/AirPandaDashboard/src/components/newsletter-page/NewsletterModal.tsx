@@ -7,7 +7,7 @@ import {
 } from "@headlessui/react";
 import { Fragment } from "react";
 import DeleteEmail from "./DeleteEmail";
-import AddEmail from "./addEmail";
+import AddEmail from "./AddEmail";
 import { IoClose } from "react-icons/io5";
 
 const NewsletterModal = ({

@@ -21,7 +21,7 @@ interface Flight {
   toCity: string;
   toCountry: string;
   gate: string;
-  departure: string;
+  departure: Date;
   flightTime: string;
   seats: number[];
   seatsTaken: string[];
